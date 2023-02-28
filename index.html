@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Etch-a-sketch</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="header">Remy-Sketchpad</div>
+    <div class="hero">
+        <div class="icons">
+            <div class="penSize-section">
+                <div class="penlabel">pen size: </div>
+                <div class="scale-container">
+                    <div class="sc2">
+                       <div class="pen-size"></div>
+                        <input type="range" min="0" max="100" class="slider" id="range" value="50">
+                    </div>
+                   <div class="value">50</div>
+                </div>  
+          </div>
+          <div class="reset-section">
+            <div class="resetimg"><img src="./img/reset.png" alt="reset icon"></div>
+            <div class="resettext">Reset</div>
+          </div>
+          <div class="colors">
+            <div class="black">black</div>
+            <div class="blue">blue</div>
+          </div>
+          <button class="RBG-button">RGB</button>
+          <div class="opaque-section">
+            <div class="opaqueimg"><img src="./img/opaque.png" alt="opaque icon"></div>
+            <div class="opaquetext">Opaque</div>
+          </div>
+          
+        </div>
+        <div class="sketchpad"></div>
+    </div>
+    <div class="footer">
+        <div class="logo"><img src="./img/logo.png" alt=""></div>
+        <div class="logoName">copyright © 2023 RemyJohnny</div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
