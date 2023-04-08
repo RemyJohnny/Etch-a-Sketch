@@ -8,10 +8,11 @@ user-select: none;
 body{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap : 20px;
     margin: 0px;
+    height: 100vh;
 }
 @font-face {
     font-family: mycoolfont;
@@ -41,7 +42,6 @@ margin-top: 1rem;
     background-color: #042f2e;
     border-radius: 15px;
     width:auto;
-    flex-grow: 1;
 }
 .sketchpad
 {
