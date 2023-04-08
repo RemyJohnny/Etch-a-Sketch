@@ -2,8 +2,7 @@
 html{
 background-color: #042f2e;
 background-image: linear-gradient(326deg, #042f2e 0%,#fbbf24 94%);
-background-attachment: fixed;
-background-position: center;
+background-repeat: no-repeat;
 user-select: none;
 }
 body{
